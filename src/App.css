@@ -1,0 +1,33 @@
+.App {
+  background-color: #70bdfd;
+}
+
+.bg-custom-dblue{
+  background-color: #40ACFC
+}
+
+.text-custom-dblue{
+  color: #40ACFC
+}
+
+.bg-custom-lblue{
+  background-color: #70bdfd;
+}
+
+.text-custom-lblue{
+  color: #70bdfd;
+}
+
+.bg-custom-dpurple{
+  background-color: #502c94;
+}
+
+.text-custom-dpurple{
+  color: #502c94;
+}
+
+.background-custom-gradient {
+  background-image: linear-gradient(to bottom, #70bdfd, #4d2893); /* Example linear gradient */
+  /* Or for a radial gradient: */
+  /* background-image: radial-gradient(circle, #ff7e5f, #feb47b); */
+}

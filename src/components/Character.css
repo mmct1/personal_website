@@ -1,0 +1,11 @@
+.overlay-image {
+  position: absolute; /* Or absolute, depending on desired behavior */
+  top: 20px; /* Adjust for desired vertical position */
+  right: 20px; /* Adjust for desired horizontal position (for top-right) */
+  /* For top-left, use 'left: 20px;' */
+  /* For bottom-right, use 'bottom: 20px; right: 20px;' */
+  /* For bottom-left, use 'bottom: 20px; left: 20px;' */
+  z-index: 1000; /* Ensure it appears above other elements */
+  width: 200px; /* Optional: Set a fixed width */
+  height: auto; /* Optional: Maintain aspect ratio */
+}
