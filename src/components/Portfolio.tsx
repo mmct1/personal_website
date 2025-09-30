@@ -23,6 +23,7 @@ function Portfolio() {
       </div>
 
       <div className="w-100 vh-50 d-flex align-items-center justify-content-center p-5">
+
         <div className="row">
           <div className="col-sm-6 p-2">
             <div className="card p-2 d-flex flex-column align-items-center justify-content-center border border-light rounded-4">
@@ -91,7 +92,6 @@ function Portfolio() {
               </div>
             </div>
           </div>
-          <div className=" d-flex flex-column align-items-center justify-content-center">
             <div className="col-sm-6 p-2">
               <div className="card p-2 d-flex flex-column align-items-center justify-content-center border border-light rounded-4">
                 <img
@@ -125,9 +125,40 @@ function Portfolio() {
                     </a>
                   </div>
                 </div>
-              </div>
             </div>
           </div>
+
+            <div className="col-sm-6 p-2">
+              <div className="card p-2 d-flex flex-column align-items-center justify-content-center border border-light rounded-4">
+                <img
+                  src="/datathon_th.jpg"
+                  className="card-img-top"
+                  alt="..."
+                ></img>
+                <div className="card-body d-flex flex-column align-items-center justify-content-center">
+                  <h5 className="card-title text-center fw-bold">
+                    ace analysis - is ace speeding up your commute? 
+                  </h5>
+                  <h6 className="text-center text-custom-dpurple fw-bold">
+                    @  mta x mhc++ datathon
+                  </h6>
+                  <p className="card-text text-center text-custom-dblue">
+                    python | plotly | pandas | git
+                  </p>
+                  <div className="display-flex">
+                    <a
+                      href="https://github.com/MHC-Datathon/Macaulay-Matrix"
+                      className="btn btn-outline-dark p-2 m-2"
+                    >
+                      github
+                    </a>
+                  </div>
+                </div>
+            </div>
+          </div>
+
+
+
         </div>
       </div>
     </div>
